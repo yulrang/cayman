@@ -14,21 +14,14 @@ transition과 비슷하나, **속성 값의 변화를 명시적으로 하는데*
 ## 1. 특징
 1. 한 시간 지점에 똑같은 속성에 대해 여러 애니메이션이 적용된 경우, 마지막으로 선언된 애니메이션의 것이 적용된다.
 <iframe height='265' scrolling='no' title='animation multiple' src='//codepen.io/2yulrang/embed/YQRgqB/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/2yulrang/pen/YQRgqB/'>animation multiple</a> by leeYura (<a href='https://codepen.io/2yulrang'>@2yulrang</a>) on <a href='https://codepen.io'>CodePen</a></iframe>
-
 2. 애니메이션은 애니메이션 적용 전, 딜레이 시간 만료 전, 적용 후의 계산값에 영향을 미치지 않는다.
-
 3. 애니메이션은 문서가 로딩되는 순간 시작된다.
 스타일을 수정하여 지정한 애니메이션은 스타일시트가 해석될 때 시작됨. (`:hover`, 스크립트 제어 등)
-
 4. 애니메이션을 다시 시작하려면 애니메이션을 제거한 다음 다시 적용해야 함.
-
 <iframe height='265' scrolling='no' title='animation restart' src='//codepen.io/2yulrang/embed/vZQMwZ/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/2yulrang/pen/vZQMwZ/'>animation restart</a> by leeYura (<a href='https://codepen.io/2yulrang'>@2yulrang</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
-
 5. 애니메이션을 변경하려면 `animation-name` 값을 변경해야함.
 해당 속성을 이용하여 애니메이션을 삭제하는 경우 적용된 다른 애니메이션은 계속됨.
-
 <iframe height='265' scrolling='no' title='animation interaction' src='//codepen.io/2yulrang/embed/LLXvzV/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/2yulrang/pen/LLXvzV/'>animation interaction</a> by leeYura (<a href='https://codepen.io/2yulrang'>@2yulrang</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
-
 6. `display:none`이 설정되면 애니메이션이 모두 종료되고, 해제되면 다시 시작됨.
 <iframe height='265' scrolling='no' title='jwQJja' src='//codepen.io/2yulrang/embed/jwQJja/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/2yulrang/pen/jwQJja/'>jwQJja</a> by leeYura (<a href='https://codepen.io/2yulrang'>@2yulrang</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
 
