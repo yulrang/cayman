@@ -25,8 +25,9 @@ layout: default
 <br><br>
 
 # transition-property
+
 | 항목       | 내용                        |
-|:-----------|:---------------------------|
+|: -----------|:---------------------------|
 | 적용 대상   | 가상 요소를 포함한 모든 요소 |
 | 초기값     | all                         |
 | 상속       | X                           |
@@ -54,6 +55,7 @@ none | <single-transition-property> [ ‘,’ <single-transition-property> ]*
 <br><br>
 
 # transition-duration
+
 항목|내용
 ----|----
 적용 대상|가상 요소를 포함한 모든 요소
@@ -135,6 +137,7 @@ steps(<integer>[, [ start | end ] ]?)
 <br><br>
 
 #transition-delay
+
 항목|내용
 ----|----
 적용 대상|가상 요소를 포함한 모든 요소
