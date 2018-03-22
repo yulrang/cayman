@@ -39,10 +39,10 @@ layout: default
 none | <single-transition-property> [ ‘,’ <single-transition-property> ]*
 ~~~~
 
-### all
+### (1) all
 애니메이션이 가능한 모든 하위 속성에 대한 전환
 
-### \<single-transition-property\>
+### (2) \<single-transition-property\>
 단일 속성에 대한 전환
 
 리스트로 작성하여 복수 전환이 가능하나 트랜지션이 불가능한 속성이 정의되어 있을 경우 무시한다. 단, 무시되더라도 **리스트 매칭은 유지된다.**
@@ -83,24 +83,24 @@ a> P_1, P_2의 x, y좌표를 정의 -> x1, y1, x2, y2
 
 ## 1. 값
 
-### 1. 베지어 곡선 값
+### 1) 베지어 곡선 값
 
-#### ease
+#### (1) ease
 cubic-bezier(0.25, 0.1, 0.25, 1)와 동일
 
-#### linear
+#### (2) linear
 cubic-bezier(0, 0, 1, 1)와 동일
 
-#### ease-in
+#### (3) ease-in
 cubic-bezier(0.42, 0, 1, 1)와 동일
 
-#### ease-out
+#### (4) ease-out
 cubic-bezier(0, 0, 0.58, 1)와 동일
 
-#### ease-in-out
+#### (5) ease-in-out
 cubic-bezier(0.42, 0, 0.58, 1)와 동일
 
-#### cubic-bezier()
+#### (6) cubic-bezier()
 조절점의 P_1과 P_2의 x, y좌표를 정의. (x1, y1, x2, y2)
 
 ~~~~
@@ -117,13 +117,13 @@ cubic-bezier(<number>, <number>, <number>, <number>)
 
 ### 2. 계단 함수값
 
-#### step-start
+#### (1) step-start
 steps(1, start)와 동일
 
-#### step-end
+#### (2) step-end
 steps(1, end)와 동일
 
-#### steps()
+#### (3) steps()
 첫번째 파라미터는 단계의 수를, 두번째 파라미터는 단계 내에서 값의 변화를 처음과 끝 중 어디에 줄 것인지를 의미
 두번째 파라미터가 생략될 경우, end로 계산됨
 
