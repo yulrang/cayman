@@ -136,7 +136,7 @@ steps(<integer>[, [ start | end ] ]?)
 
 <br><br>
 
-#transition-delay
+# transition-delay
 
 항목|내용
 ----|----
