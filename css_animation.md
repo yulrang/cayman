@@ -105,15 +105,9 @@ to == 100%
 
 <iframe height='352' scrolling='no' title='ease-in-out' src='//codepen.io/2yulrang/embed/vJYmmr/?height=352&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/2yulrang/pen/vJYmmr/'>ease-in-out</a> by leeYura (<a href='https://codepen.io/2yulrang'>@2yulrang</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
 
-
-
 <br>
 
-
-
 <iframe height='352' scrolling='no' title='ease-in & ease-out' src='//codepen.io/2yulrang/embed/gxORKP/?height=352&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/2yulrang/pen/gxORKP/'>ease-in & ease-out</a> by leeYura (<a href='https://codepen.io/2yulrang'>@2yulrang</a>) on <a href='https://codepen.io'>CodePen</a>.</iframe>
-
-
 
 <br><br>
 
