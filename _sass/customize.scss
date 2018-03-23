@@ -1,8 +1,9 @@
 .list {
+	padding:0;
 	li {
 		list-style:none;
 		padding:8px 10px;
-		border-top:1px solid #ccc;
+		border-top:1px solid #eff0f1;
 		&:first-child {
 			border-top:0;
 		}
