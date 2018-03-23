@@ -1,0 +1,10 @@
+.list {
+	li {
+		list-style:none;
+		padding:8px 10px;
+		border-top:1px solid #ccc;
+		&:first-child {
+			border-top:0;
+		}
+	}
+}
