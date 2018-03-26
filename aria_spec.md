@@ -69,56 +69,30 @@ WAI-ARIA를 쓰기에 앞서, **기본 마크업에 충실할것!**
 역할    |설명    |예시
 -------|--------|-------
 **alert**            |실시간 알림 메시지    |[페이지 이동 알림창](https://niawa.github.io/ARIA/15.%20loading/index.html), [실시간 유효성검사](https://niawa.github.io/ARIA/19.%20realtime-feedback/index.html)
-
 alertdialog    |알림메시지가 들어있는 다이얼로그. 초기 포커스가 다이얼로그 내 요소에 위치|
-
 button         |버튼 요소    |[버튼](https://niawa.github.io/ARIA/05.%20button/index.html)
-
 checkbox     |복수 선택 가능한 true / false 입력요소    |[체크박스](https://niawa.github.io/ARIA/07.%20checkbox/index.html)
-
 **dialog**         |사용자 인터랙션 애플리케이션 창    |[타임 세션](https://niawa.github.io/ARIA/13.%20time-limit/time-limit-aria.html)
-
 gridcell        |그리드 셀|
-
 link             |링크 요소|
-
 log             |정보가 로깅되는 라이브 영역|
-
 marquee      |자주 바뀌는 보조 정보 라이브 영역|
-
 menuitem    |메뉴나 메뉴바 그룹에 있는 메뉴 항목|[드롭다운메뉴](https://niawa.github.io/ARIA/14.%20dropdown-menu/index.html), [네비게이션 메뉴바](https://www.w3.org/TR/wai-aria-practices/examples/menubar/menubar-1/menubar-1.html)
-
 menuitemcheckbox    |복수 선택 가능한 true / false 메뉴 항목|
-
 menuitemradio         |복수 선택 불가능한 true / false 메뉴 항목|
-
 option           |select 목록에 있는 항목    |[콤보박스](https://niawa.github.io/ARIA/21.%20combobox/index.html)
-
 progressbar    |작업의 진행 상태를 나타내는 요소|
-
 radio             |복수 선택 불가능한 true / false 요소    |[라디오버튼](https://niawa.github.io/ARIA/06.%20radio-button/index.html)
-
 scrollbar         |뷰 영역 안에서 콘텐츠 스크롤을 제어하는 요소|
-
 slider             |주어진 범위 값 내에서 선택하는 입력 요소|
-
 spinbutton      |사용자가 별도의 옵션 중에 선택할 수 있는 요소|
-
 status            |덜 중요한 정보 컨테이너|
-
 **tab**                |탭 요소|[탭](https://niawa.github.io/ARIA/01.%20tab-ui/index.html), [비주얼 슬라이드(탭)](https://niawa.github.io/ARIA/20.%20carousel/index.html)
-
 **tabpanel**         |탭과 관련한 요소를 포함하는 컨테이너    |[탭, 탭 패널](http://www.oaa-accessibility.org/examplep/tabpanel1/)
-
 textbox          |텍스트 입력 요소|
-
 timer             |경과 시간이나 남은 시간을 나타내는 라이브 영역|
-
 tooltip            |요소의 내용을 설명하는 팝업 요소    |[툴팁](https://niawa.github.io/ARIA/10.%20tooltip/index.html)
-
 treeitem          |접거나 펼칠수 있는 트리 항목|
-
-
 
 
 
@@ -129,25 +103,14 @@ treeitem          |접거나 펼칠수 있는 트리 항목|
 역할         |설명        |예시
 ------------|--------------------|-----------
 **combobox**  |콤보박스 요소|[자동완성](https://niawa.github.io/ARIA/02.%20autocomplete/index.html), [콤보박스](https://niawa.github.io/ARIA/21.%20combobox/index.html)
-
 grid           |테이블 형태의 데이터 인터랙티브 컨트롤|
-
 **listbox**       |목록 항목 그룹    |[콤보박스](https://niawa.github.io/ARIA/21.%20combobox/index.html)
-
 menu        |선택 목록 위젯    |[드롭다운메뉴](https://niawa.github.io/ARIA/14.%20dropdown-menu/index.html), [네비게이션 메뉴바](https://www.w3.org/TR/wai-aria-practices/examples/menubar/menubar-1/menubar-1.html)
-
 menubar    |화면에 수평으로 표시되는 메뉴바 요소    |[드롭다운메뉴](https://niawa.github.io/ARIA/14.%20dropdown-menu/index.html), [네비게이션 메뉴바](https://www.w3.org/TR/wai-aria-practices/examples/menubar/menubar-1/menubar-1.html)
-
 radiogroup |라디오 버튼 그룹    |[라디오버튼](https://niawa.github.io/ARIA/06.%20radio-button/index.html)
-
 tablist        |탭 요소 목록    |[비주얼 슬라이드(탭)](https://niawa.github.io/ARIA/20.%20carousel/index.html)
-
 tree          |접거나 펼칠 수 있는 트리 구조의 목록|
-
 treegrid     |행을 접었다 펼 수 있는 그리드|
-
-
-
 
 
 <br>
@@ -165,41 +128,23 @@ treegrid     |행을 접었다 펼 수 있는 그리드|
 역할         |설명        |예시
 ------------|------------|--------
 article                |독립적인 부분을 구성하는 요소로 이루어진 페이지 섹션|
-
 columnheader    |열의 헤더 정보가 들어있는 셀 영역|
-
 definition           |용어나 개념의 정의를 나타내는 영역|
-
 **document**          |웹이 아닌 문서로 선언된 정보가 들어있는 영역|
-
 group               |요소 등을 모아놓은 영역|[다중폼](https://niawa.github.io/ARIA/04.%20multi-group/index.html), [체크박스](https://niawa.github.io/ARIA/07.%20checkbox/index.html)
-
 heading            |각 섹션의 헤딩 영역|
-
 img                  |이미지 컨테이너 영역|
-
 list                   |목록 항목 그룹|
-
 listitem             |목록이나 디렉토리의 항목|
-
 math                |수학적 표현을 나타내는 요소|
-
 note                |콘텐츠에 삽입되거나 보조적으로 쓰인 콘텐츠 섹션|
-
 **presentation**      |접근성이 매핑되지 않는 보여주기 요소|
-
 region              |페이지에서 중요한 내용을 담긴 인지 영역    |[비주얼 슬라이드](https://niawa.github.io/ARIA/20.%20carousel/index.html)
-
 ~~row~~                  |그리드에서 셀의 행|
-
 ~~rowgroup~~          |그리드에서 행의 그룹|
-
 ~~rowheader~~         |그리드에서 행의 헤더 셀|
-
 separator          |콘텐츠의 섹션, 메뉴 항목의 그룹 구분자|
-
 toolbar             |작은 기능 버튼 모음|
-
 <br>
 
 
@@ -215,22 +160,13 @@ toolbar             |작은 기능 버튼 모음|
 역할    |설명    |예시
 --------|---------|--------
 **application**    |    |
-
 **banner**    |페이지가 아닌 사이트와 관련한 내용(사이트·스폰서 로고, 사이트 검색도구)을 포함|
-
 complementary    |    |
-
 contentinfo    |    |
-
 form    |    |
-
 **main**    |    |
-
 navigation    |    |[드롭다운메뉴](https://niawa.github.io/ARIA/14.%20dropdown-menu/index.html), [페이지 네비게이터](https://niawa.github.io/ARIA/18.%20page-navigator/index.html)
-
 search    |    |
-
-
 
 <br>
 
