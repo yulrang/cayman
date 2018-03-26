@@ -10,10 +10,8 @@
 	[ [ <angle> | to <side-or-corner> ] ,]?
 	<color-stop>[, <color-stop>]+
 )
-
 <side-or-corner> = [left | right] || [top | bottom]
 ~~~~
-
 
 
 ## 1. 파라미터
@@ -44,7 +42,7 @@
 - 180deg (to bottom) : 기본값
 
 <div style="height:100px; background:linear-gradient(180deg, aqua, darkblue);"></div>
-
+<br>
 <div style="height:100px; background:linear-gradient(aqua, darkblue);"></div>
 
 - 270deg (to left)
@@ -91,17 +89,17 @@
 repeat 상태에서 color, position, angle, size의 조합으로 여러가지 패턴을 만들 수 있다.
 
 <div style="position:relative;"><div style="height:200px; background-image:linear-gradient(to right, #aaa 50%, #000 0); background-size:100px auto;"></div><div style="position:absolute; top:0; width:100px; height:200px; outline:2px solid red;"></div></div>
-
+<br>
 <div style="position:relative;"><div style="height:200px; background-image:linear-gradient(to right, #aaa 33.3%, #fff 0, #fff 66.6%, #000 0); background-size:100px auto;"></div><div style="position:absolute; top:0; width:100px; height:200px; outline:2px solid red;"></div></div>
-
+<br>
 <div style="position:relative;"><div style="height:200px; background-image:linear-gradient(#aaa 10%, #000 0); background-size:auto 10px;"></div><div style="position:absolute; top:0; left:0; right:0; height:10px; outline:2px solid red;"></div></div>
-
+<br>
 <div style="position:relative;"><div style="height:200px; background-image:linear-gradient(to top right, #aaa 50%, #000 0); background-size:100px 100px;"></div><div style="position:absolute; top:0; width:100px; height:100px; outline:2px solid red;"></div></div>
-
+<br>
 <div style="position:relative;"><div style="height:200px; background-image:linear-gradient(to top right, black 25%, #aaa 0, #aaa 50%, black 0, black 75%, #aaa 0); background-size:100px 100px;"></div><div style="position:absolute; top:0; width:100px; height:100px; outline:2px solid red;"></div></div>
-
+<br>
 <div style="position:relative;"><div style="height:200px; background:#000; background-image:linear-gradient(#aaa 2%, transparent 0), linear-gradient(to right, #aaa 2%, transparent 0); background-size:50px 50px;"></div><div style="position:absolute; top:0; width:50px; height:50px; outline:2px solid red;"></div></div>
-
+<br>
 <div style="position:relative;"><div style="height:200px; background-image:linear-gradient(rgba(0,0,0,.5) 50%, transparent 0), linear-gradient(to right, rgba(0,0,0,.5) 50%, transparent 0); background-size:50px 50px;"></div><div style="position:absolute; top:0; width:50px; height:50px; outline:2px solid red;"></div></div>
 
 
@@ -112,20 +110,13 @@ repeat 상태에서 color, position, angle, size의 조합으로 여러가지 �
 
 ~~~~
 background: -moz-linear-gradient(90deg, #ffffff 0%, #f1f1f1 100%); /* ff3.6+ */
-
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f1f1f1), color-stop(100%, #ffffff)); /* safari4+,chrome */
-
 background: -webkit-linear-gradient(90deg, #ffffff 0%, #f1f1f1 100%); /* safari5.1+,chrome10+ */
-
 background: -o-linear-gradient(90deg, #ffffff 0%, #f1f1f1 100%); /* opera 11.10+ */
-
 background: -ms-linear-gradient(90deg, #ffffff 0%, #f1f1f1 100%); /* ie10+ */
-
 background: linear-gradient(0deg, #ffffff 0%, #f1f1f1 100%); /* w3c */
-
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#ffffff',GradientType=0 ); /* ie6-9 */
 ~~~~
-
 
 
 <br><br><br><br><br>
@@ -139,17 +130,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', end
 
 ~~~~
 <radial-gradient> = radial-gradient(
-
   [ [ circle               || <length> ]                          [ at <position> ]? , |
-
     [ ellipse              || [ <length> | <percentage> ]{2} ]    [ at <position> ]? , |
-
     [ [ circle | ellipse ] || <extent-keyword> ]                  [ at <position> ]? , |
-
     at <position> ,
-
   ]?
-
   <color-stop> [ , <color-stop> ]+
 )
 
@@ -195,7 +180,7 @@ length 대신 키워드를 사용할 수 있다
 ending shape가 그라디언트의 중심에서 가장 가까운 그라디언트 박스 모서리를 만나게끔 그라디언트된다.
 
 <div style="height:200px; background:radial-gradient(closest-side circle at center, black, red, yellow);"></div>
-
+<br>
 <div style="height:200px; background:radial-gradient(closest-side ellipse at 100px 50px, black, red, yellow);"></div>
 
 
@@ -205,7 +190,7 @@ ending shape가 그라디언트의 중심에서 가장 가까운 그라디언트
 ending shape가 그라디언트의 중심에서 가장 먼 그라디언트 박스 모서리를 만나게끔 그라디언트된다.
 
 <div style="height:200px; background:radial-gradient(farthest-side circle at center, black, red, yellow);"></div>
-
+<br>
 <div style="height:200px; background:radial-gradient(farthest-side ellipse at 100px 50px, black, red, yellow);"></div>
 
 
@@ -215,7 +200,7 @@ ending shape가 그라디언트의 중심에서 가장 먼 그라디언트 박�
 ending shape가 그라디언트의 중심에서 가장 가까운 꼭지점을 지나가게끔 그라디언트된다.
 
 <div style="height:200px; background:radial-gradient(closest-corner circle at 200px 30px, black, red, yellow);"></div>
-
+<br>
 <div style="height:200px; background:radial-gradient(closest-corner ellipse at 200px 30px, black, red, yellow);"></div>
 
 
@@ -225,7 +210,7 @@ ending shape가 그라디언트의 중심에서 가장 가까운 꼭지점을 �
 ending shape가 그라디언트의 중심에서 가장 먼 꼭지점을 지나가게끔 그라디언트된다.
 
 <div style="height:100px; background:radial-gradient(farthest-corner circle at 200px 30px, black, red, yellow);"></div>
-
+<br>
 <div style="height:100px; background:radial-gradient(farthest-corner ellipse at 200px 30px, black, red, yellow);"></div>
 
 
@@ -249,8 +234,6 @@ ending shape가 그라디언트의 중심에서 가장 먼 꼭지점을 지나�
 - (100%, 100%)
 
 <div style="height:200px; background:radial-gradient(100px circle at 100% 100%, white, black);"></div>
-
-
 
 <br>
 
@@ -297,11 +280,8 @@ repeat 상태에서 color, position, size, shape의 조합으로 여러가지 �
 파라미터 등은 linear-gradient와 같으나, 아래 코드와 같이 color-stop들이 무한히 반복된다.
 
 ~~~~
-
 linear-gradient(..., red -30px, blue 10px, red 10px, blue 50px, red 50px, blue 90px, ...)
-
 repeating-linear-gradient(red 10px, blue 50px)
-
 ~~~~
 
 
@@ -323,15 +303,12 @@ repeating-linear-gradient(red 10px, blue 50px)
 파라미터 등은 radial-gradient와 같으나, 아래 코드와 같이 color-stop들이 무한히 반복된다.
 
 ~~~~
-
 radial-gradient(..., red -30px, blue 10px, red 10px, blue 50px, red 50px, blue 90px, ...)
-
 repeating-radial-gradient(red 10px, blue 50px)
-
 ~~~~
 
 
 
 > 비교
-<div style="width:200px; height:200px; background:radial-gradient(red 10px, blue 50px);"></div>
+<div style="width:200px; height:200px; background:radial-gradient(red 10px, blue 50px);"></div><br>
 <div style="width:200px; height:200px; background:repeating-radial-gradient(red 10px, blue 50px);"></div>
