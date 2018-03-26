@@ -516,7 +516,7 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 
 ### 예시 출처
 
-- https://github.com/niawa/ARIA <예제로 살펴보는 WAI-ARIA> 예제코드 내용
+- https://github.com/niawa/ARIA \<예제로 살펴보는 WAI-ARIA\> 예제코드 내용
 - https://www.w3.org/TR/wai-aria-practices
 
 
