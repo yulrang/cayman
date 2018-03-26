@@ -204,155 +204,89 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 
 
 <table>
-
 <tr>
-
 <th>분류<br>(속성)</th>
-
 <th>상태</th>
-
 <th>설명</th>
-
 <th>값</th>
-
 <th>역할</th>
-
 <th>예시</th>
-
 </tr>
 
 <tr>
-
 <th rowspan="7">Widget</th>
-
 <td>[aria-checked](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-checked)</td>
-
 <td>체크된 상태</td>
-
 <td>true / false / mixed</td>
-
 <td>option, radio, checkbox...</td>
-
 <td>[라디오버튼](https://niawa.github.io/ARIA/06.%20radio-button/index.html), [체크박스](https://niawa.github.io/ARIA/07.%20checkbox/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[**aria-disabled**](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-disabled)</td>
-
 <td>요소의 비활성/활성</td>
-
 <td>true / false</td>
-
 <td>all</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <td>[**aria-expanded**](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-expanded)</td>
-
 <td>요소의 확장 상태</td>
-
 <td>true / false / undefined</td>
-
 <td>tree, menu, list...</td>
-
 <td>[콤보박스](https://niawa.github.io/ARIA/21.%20combobox/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[**aria-hidden**](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-hidden)</td>
-
 <td>요소의 숨김 여부</td>
-
 <td>true / false</td>
-
 <td>all</td>
-
 <td>[에러메시지(꾸밈요소)](https://niawa.github.io/ARIA/08.%20error-message/index.html), [툴팁](https://niawa.github.io/ARIA/10.%20tooltip/index.html), [꾸밈요소](https://niawa.github.io/ARIA/16.%20special-charactor/index.html), [비주얼 슬라이드](https://niawa.github.io/ARIA/20.%20carousel/index.html), [콤보박스](https://niawa.github.io/ARIA/21.%20combobox/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-invalid](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-invalid)</td>
-
 <td>응용 프로그램에서 예상되는 형식을 준수하지 않는 입력 값</td>
-
 <td>true / false / grammar / spelling</td>
-
 <td>all</td>
-
 <td>[에러메시지](https://niawa.github.io/ARIA/08.%20error-message/index.html), [유효성 검사](https://niawa.github.io/ARIA/17.%20form-label/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-pressed](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-pressed)</td>
-
 <td>눌려져 있는 상태</td>
-
 <td>true / false / mixed</td>
-
 <td>button</td>
-
 <td>[토글버튼](https://www.w3.org/TR/wai-aria-practices/examples/button/button.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[**aria-selected**](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-selected)</td>
-
 <td>선택된 상태</td>
-
 <td>true / false / undefined</td>
-
 <td>row, tab, treeitem...</td>
-
 <td>[비주얼 슬라이드(탭)](https://niawa.github.io/ARIA/20.%20carousel/index.html)</td>
-
 </tr>
 
 <tr>
-
 <th>Live Region</th>
-
 <td>[aria-busy](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-busy)</td>
-
 <td>요소와 그 하위 트리가 현재 업데이트되고 있는지 여부</td>
-
 <td>true / false</td>
-
 <td>all</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <th>Drag-and-Drop</th>
-
 <td>[aria-grabbed](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-grabbed)</td>
-
 <td>드래그앤 드롭 요소의 드래그 상태</td>
-
 <td>true / false / undefined</td>
-
 <td>all</td>
-
 <td>&nbsp;</td>
-
 </tr>
-
 </table>
 
 
