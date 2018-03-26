@@ -291,9 +291,6 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 
 ---------
 
-
-
-
 ### 3. 속성
 
 <table>
@@ -510,8 +507,6 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 </tr>
 </table>
 
-
------
 <br>
 
 ### 예시 출처
