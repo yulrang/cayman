@@ -201,7 +201,6 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 
 역할을 가진 요소의 현재 상태에 대해 설명함.
 
-
 <table>
 <tr>
 <th>분류<br>(속성)</th>
@@ -289,8 +288,6 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 </table>
 
 
-
-<br>
 
 
 
@@ -514,7 +511,6 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 </tr>
 </table>
 
-<br><br><br>
 
 
 -----
