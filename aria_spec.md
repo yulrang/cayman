@@ -404,7 +404,7 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 </tr>
 
 <tr>
-<td><a href="https://w ww.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-value-text">aria-valuetext</a></td>
+<td><a href="https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-value-text">aria-valuetext</a></td>
 <td>aria-valuenow를 대체하는 텍스트 설정</td>
 <td>string</td>
 <td>range</td>
