@@ -202,7 +202,6 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 역할을 가진 요소의 현재 상태에 대해 설명함.
 
 
-
 <table>
 <tr>
 <th>분류<br>(속성)</th>
@@ -524,21 +523,10 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 
 -----------------------------------
 
-
-
-
-
 예시 출처
 
-
-
 - https://github.com/niawa/ARIA <예제로 살펴보는 WAI-ARIA> 예제코드 내용
-
 - https://www.w3.org/TR/wai-aria-practices
-
-
-
-
 
 
 
