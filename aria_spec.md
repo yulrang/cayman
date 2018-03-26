@@ -294,7 +294,7 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 
 
 
--------------------------------
+---------
 
 
 
@@ -352,7 +352,7 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 </tr>
 
 <tr>
-<td><a href="https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-orientation">aria-orientation</a>)</td>
+<td><a href="https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-orientation">aria-orientation</a></td>
 <td>요소와 화면 방향 가로/세로 설정</td>
 <td>vertical / horizontal</td>
 <td>scrollbar, separator, slider</td>
@@ -512,16 +512,13 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 <td>all</td>
 <td><a href="https://niawa.github.io/ARIA/21.%20combobox/index.html">콤보박스</a></td>
 </tr>
-
 </table>
-
-
 
 <br><br><br>
 
 
+-----
 
------------------------------------
 
 예시 출처
 
