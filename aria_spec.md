@@ -367,389 +367,220 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 
 ### 3. 속성
 
-
-
 <table>
-
 <tr>
-
 <th>분류</th>
-
 <th>속성</th>
-
 <th>설명</th>
-
 <th>값</th>
-
 <th>역할</th>
-
 <th>예시</th>
-
 </tr>
 
 <tr>
-
 <th rowspan="13">Widget</th>
-
 <td>[aria-autocomplete](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-autocomplete)</td>
-
 <td>자동완성 지원 여부</td>
-
 <td>inline / list / both / none</td>
-
 <td>combobox, textbox</td>
-
 <td>[자동완성](https://niawa.github.io/ARIA/02.%20autocomplete/index.html), [콤보박스](https://niawa.github.io/ARIA/21.%20combobox/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-haspopup](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-haspopup)</td>
-
 <td>팝업 메뉴나, 하위 레벨 메뉴 존재 여부</td>
-
 <td>true / false</td>
-
 <td>all</td>
-
 <td>[자동완성](https://niawa.github.io/ARIA/02.%20autocomplete/index.html), [콤보박스](https://niawa.github.io/ARIA/21.%20combobox/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[**aria-label**](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-label)</td>
-
 <td>현재 요소의 이름을 나타내는 값 설정</td>
-
 <td>true / false</td>
-
 <td>all</td>
-
 <td>[다중폼](https://niawa.github.io/ARIA/04.%20multi-group/index.html), [콤보박스(버튼)](https://niawa.github.io/ARIA/21.%20combobox/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-level](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-level)</td>
-
 <td>계층 구조에서 요소의 레벨 설정</td>
-
 <td>integer</td>
-
 <td>grid, heading, listitem, row, tablist</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-multiline](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-multiline)</td>
-
 <td>텍스트 박스에 여러줄을 입력할 수 있는지 여부 설정</td>
-
 <td>true / false</td>
-
 <td>textbox</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-orientation](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-orientation)</td>
-
 <td>요소와 화면 방향 가로/세로 설정</td>
-
 <td>vertical / horizontal</td>
-
 <td>scrollbar, separator, slider</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-required](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-required)</td>
-
 <td>필수 입력 항목 설정</td>
-
 <td>true / false</td>
-
 <td>combobox, gridcell, listbox, radiogroup, spinbutton, textbox, tree</td>
-
 <td>[필수 입력 항목](https://niawa.github.io/ARIA/11.%20required/index.html), [유효성 검사](https://niawa.github.io/ARIA/17.%20form-label/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-readonly](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-readonly)</td>
-
 <td>읽기 전용 설정</td>
-
 <td>true / false</td>
-
 <td>grid, gridcell, textbox</td>
-
 <td>[콤보박스](https://niawa.github.io/ARIA/21.%20combobox/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-multiselectable](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-multiselectable)</td>
-
 <td>여러 개 선택 가능한지 설정</td>
-
 <td>true / false</td>
-
 <td>grid, listbox, tablist, tree</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-valuemax](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-valuemax)</td>
-
 <td>범위의 최댓값 설정</td>
-
 <td>number</td>
-
 <td>range</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-valuemin](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-valuemin)</td>
-
 <td>범위의 최솟값 설정</td>
-
 <td>number</td>
-
 <td>range</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-valuenow](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-valuenow)</td>
-
 <td>범위의 현재값 설정</td>
-
 <td>number</td>
-
 <td>range</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-valuetext](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-value-text)</td>
-
 <td>aria-valuenow를 대체하는 텍스트 설정</td>
-
 <td>string</td>
-
 <td>range</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <th rowspan="3">Live Region</th>
-
 <td>[aria-atomic](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-atomic)</td>
-
 <td>aria-relevant 속성으로 정의된 알림 방식에 따라 변경 요소의 공개 여부를 설정.</td>
-
 <td>true / false</td>
-
 <td>all</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <td>[**aria-relevant**](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-relevant)</td>
-
 <td>요소가 변경될 때 어떤 알림을 받을 것인지 설정</td>
-
 <td>additions / removals / text / all</td>
-
 <td>all</td>
-
 <td>[자동완성](https://niawa.github.io/ARIA/02.%20autocomplete/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[**aria-live**](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-live)</td>
-
 <td>요소가 업데이트 될것임을 표시, 업데이트 종류 설명</td>
-
 <td>off / polite / assertive</td>
-
 <td>all</td>
-
 <td>[자동완성](https://niawa.github.io/ARIA/02.%20autocomplete/index.html), [유효성 검사](https://niawa.github.io/ARIA/17.%20form-label/index.html)</td>
-
 </tr>
 
 <tr>
-
 <th>Drag & Drop</th>
-
 <td>[aria-dropeffect](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-dropeffect)</td>
-
 <td>드래그를 끝냈을 때 어떤 기능이 수행되는지 설정</td>
-
 <td>copy, move, link, execute, popup, none</td>
-
 <td>all</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <th rowspan="8">Relationship</th>
-
 <td>[**aria-labelledby**](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-labelledby)</td>
-
 <td>현재 엘리먼트의 이름을 나타내는 요소들의 id 설정</td>
-
 <td>참조 id</td>
-
 <td>all</td>
-
 <td>[다중폼](https://niawa.github.io/ARIA/04.%20multi-group/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-activedescendant](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-activedescendant)</td>
-
 <td>복합 위젯에서 현재 활성화된 자손의 id 설정</td>
-
 <td>참조 id</td>
-
 <td>composite, group, textbox</td>
-
 <td>[콤보박스](https://niawa.github.io/ARIA/21.%20combobox/index.html)</td>
-
 <tr>
 
 <td>[**aria-controls**](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-controls)</td>
-
 <td>현재 요소가 다른 요소를 조작하는 경우 해당 요소의 id 설정</td>
-
 <td>참조 id</td>
-
 <td>all</td>
-
 <td>[탭](https://niawa.github.io/ARIA/01.%20tab-ui/index.html), [비주얼 슬라이드(탭)](https://niawa.github.io/ARIA/20.%20carousel/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-flowto](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-flowto)</td>
-
 <td>콘텐츠 읽기 순서에서 다음 요소 지정</td>
-
 <td>참조 id</td>
-
 <td>all</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <td>[**aria-describedby**](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-describedby)</td>
-
 <td>요소를 설명하는 다른 요소의 id 설정</td>
-
 <td>참조 id</td>
-
 <td>all</td>
-
 <td>[에러메시지](https://niawa.github.io/ARIA/08.%20error-message/index.html), [툴팁](https://niawa.github.io/ARIA/10.%20tooltip/index.html), [플레이스홀더](https://niawa.github.io/ARIA/11.%20required/index.html), [유효성 검사](https://niawa.github.io/ARIA/17.%20form-label/index.html)</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-posinset](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-posinset)</td>
-
 <td>목록, 트리 항목이 DOM에 없는 경우, 현재 요소의 개수나 위치 설정</td>
-
 <td>integer</td>
-
 <td>listitem, option</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-setsize](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-setsize)</td>
-
 <td>목록, 트리 항목이 DOM에 없는 경우, 현재 항목의 개수 설정</td>
-
 <td>integer</td>
-
 <td>listitem, option</td>
-
 <td>&nbsp;</td>
-
 </tr>
 
 <tr>
-
 <td>[aria-owns](https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-owns)</td>
-
 <td>DOM 계층구조를 나타낼 수 없는 곳에서 요소들간의 시각,기능,상황적 부모-자식 관계를 정의하기 위해 id 설정</td>
-
 <td>참조 id</td>
-
 <td>all</td>
-
 <td>[콤보박스](https://niawa.github.io/ARIA/21.%20combobox/index.html)</td>
-
 </tr>
 
 </table>
-
-
-
-
-
-
 
 
 
