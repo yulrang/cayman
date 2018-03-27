@@ -45,5 +45,40 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.3/ace.js"></script>
+    <script>
+
+    	$(window).load(function() {
+    		$(window).on("load",function(){
+    			$(".area_menu").mCustomScrollbar();
+    		});
+
+    		//ace
+    		$(".area_view pre[class]").each(function() { try{
+    			// 언어식별자를 SyntaxHighlight 처럼 "brush: 언어" 형태로 쓸때 식별을 위한 처리부분
+    			var lang = String($(this).attr("class")).match(/brush\:([ a-zA-Z_]*)\;?/)[1]
+    			lang = lang.trim().replace(/^js$/i, "javascript");
+    			// Ace 플러그인 반영 부분
+    			var editor = ace.edit(this);
+    			editor.setOptions({ maxLines: Infinity }); // maxLines: Infinity 가 없으면 코드가 다 안보여요
+    			editor.setTheme("ace/theme/monokai");      // 테마설정 부분이에요. 원하는걸로 바꾸세요
+    			editor.getSession().setMode("ace/mode/"+ lang); // 앞서 "brush:언어" 부분으로 언어 세팅
+
+    			if( lang == "java"){
+    				editor.setTheme("ace/theme/eclipse");
+    			}
+
+    			editor.setShowInvisibles(true);            // 탭이나 공백, 엔터 기호를 보여줍니다.
+    			editor.setReadOnly(true);                  // 읽기전용으로 보여줍니다.
+    			editor.setShowPrintMargin(false);          // 프린트 가이드라인을 보여줍니다 (비활성화)
+    		} catch(ex) { console.info (ex) } })
+
+    	});
+    (function($) {
+    	$.Area.init();
+    })(jQuery);
+
+    </script>
   </body>
 </html>
