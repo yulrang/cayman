@@ -458,8 +458,9 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 <td>참조 id</td>
 <td>composite, group, textbox</td>
 <td><a href="https://niawa.github.io/ARIA/21.%20combobox/index.html">콤보박스</a></td>
-<tr>
+</tr>
 
+<tr>
 <td><a href="https://www.w3.org/TR/2014/REC-wai-aria-20140320/states_and_properties#aria-controls"><strong>aria-controls</strong></a></td>
 <td>현재 요소가 다른 요소를 조작하는 경우 해당 요소의 id 설정</td>
 <td>참조 id</td>
@@ -507,6 +508,7 @@ https://www.w3.org/WAI/PF/aria/rdf_model.svg
 <td><a href="https://niawa.github.io/ARIA/21.%20combobox/index.html">콤보박스</a></td>
 </tr>
 </table>
+
 
 <br>
 
